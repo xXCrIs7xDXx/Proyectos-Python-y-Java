@@ -1,18 +1,64 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Proyectos-Python-y-Java
 
-## Folder Structure
+> Repositorio con ejercicios, ejemplos y recursos de programación en **Java** y **Python** para la materia INF-131.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📁 Estructura del repositorio
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **src/**: Código fuente en Java
+- **bin/**: Archivos compilados (.class) de Java
+- **lib/**: Dependencias externas de Java
+- **Python/**: Scripts y ejercicios en Python
+- **datos.txt**: Archivo de datos de ejemplo
+- **README.md**: Este archivo
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## ☕ Proyectos Java
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Contiene ejercicios de clase, ejemplos de algoritmos, recursividad, manejo de archivos y más.
+
+### ¿Cómo compilar y ejecutar?
+
+1. Compilar:
+	```bash
+	javac -d bin src/NOMBRE_DEL_ARCHIVO.java
+	```
+2. Ejecutar:
+	```bash
+	java -cp bin NOMBRE_DE_LA_CLASE
+	```
+
+> Reemplaza `NOMBRE_DEL_ARCHIVO` y `NOMBRE_DE_LA_CLASE` por el nombre correspondiente.
+
+---
+
+## 🐍 Proyectos Python
+
+Scripts de práctica y ejercicios de algoritmos, recursividad, etc.
+
+### ¿Cómo ejecutar?
+
+```bash
+python Python/nombre_del_script.py
+```
+
+---
+
+## 📦 Otros recursos
+
+- **datos.txt**: Archivo de datos para pruebas
+- **ServidorSocketClienteServidorPython/**: Ejemplos de sockets en Python
+- **ExamenLab121/**, **Supermercado/**, etc.: Carpetas con proyectos específicos
+
+---
+
+## ✍️ Autor
+
+**xXCrIs7xDXx**
+
+---
+
+¡Explora, aprende y diviértete programando!
